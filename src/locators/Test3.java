@@ -10,7 +10,7 @@ public class Test3 {
 	System.setProperty("webdriver.gecko.driver","./software/geckodriver.exe");
 	WebDriver driver=new FirefoxDriver();
 	driver.get("https://demo.actitime.com/login.do");
-	driver.findElement(By.cssSelector("#username")).sendKeys("admin");
+	driver.findElement(By.id("#username")).sendKeys("admin");
 	driver.findElement(By.cssSelector("input[name='pwd']")).sendKeys("manager");
 	}
 
