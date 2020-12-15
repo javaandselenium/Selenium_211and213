@@ -12,14 +12,12 @@ public class Test5 {
 		System.setProperty("webdriver.chrome.driver", "./software/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.com/");
+		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("book");
 		driver.findElement(By.cssSelector("input[value='Go']")).click();
-		Thread.sleep(3000);
 		driver.findElement(By.xpath("//span[text()='The Body: A Guide for Occupants']")).click();
 		driver.findElement(By.id("checkout-button")).click();
-		Thread.sleep(3000);
 		driver.close();
 	}
 
