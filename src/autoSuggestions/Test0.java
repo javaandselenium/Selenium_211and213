@@ -16,7 +16,7 @@ public class Test0 {
 		WebElement ele = driver.findElement(By.name("q"));
 		ele.sendKeys("seleni");
 		 Thread.sleep(3000);
-		List<WebElement> ele1 = driver.findElements(By.xpath("//liii[@class='sbct']"));
+		List<WebElement> ele1 = driver.findElements(By.xpath("//li[@class='sbct']"));
 	    System.out.println(ele1.size());
 	    for(WebElement b:ele1) {
 	    	System.out.println(b.getText());
