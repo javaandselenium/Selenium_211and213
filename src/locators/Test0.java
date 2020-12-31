@@ -9,7 +9,7 @@ public class Test0 {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "./software/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://demo.actitime.com/login.do");
+		driver.get("https://demo.actitime.com/login.do1000");
 		driver.findElement(By.id("username")).sendKeys("admin");
 		driver.findElement(By.name("pwd")).sendKeys("manger");
 	}
