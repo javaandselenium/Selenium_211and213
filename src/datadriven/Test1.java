@@ -2,6 +2,7 @@ package datadriven;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -24,7 +25,8 @@ String us = wb.getSheet("Sheet1").getRow(1).getCell(1).getStringCellValue();
 driver.findElement(By.id("username")).sendKeys(us);
 String pwd=wb.getSheet("Sheet1").getRow(1).getCell(2).getStringCellValue();
 driver.findElement(By.name("pwd")).sendKeys(pwd);
-
+//FileOutputStream fis=new FileOutputStream("./excel/data.xlsx");
+//fis.write(7678);
 	}
 
 }

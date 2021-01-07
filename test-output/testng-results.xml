@@ -1,56 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
-    </line>
-    <line>
-      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
-    </line>
-    <line>
-      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login]]>
-    </line>
-    <line>
-      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login]]>
-    </line>
-    <line>
-      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
-    </line>
-    <line>
-      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login]]>
-    </line>
   </reporter-output>
-  <suite started-at="2021-01-06T09:31:47 IST" name="Suite" finished-at="2021-01-06T09:32:16 IST" duration-ms="28613">
+  <suite started-at="2021-01-07T09:40:52 IST" name="Default suite" finished-at="2021-01-07T09:41:48 IST" duration-ms="55901">
     <groups>
     </groups>
-    <test started-at="2021-01-06T09:31:47 IST" name="Test2" finished-at="2021-01-06T09:32:16 IST" duration-ms="28613">
-      <class name="testng.ParallelExecution">
-        <test-method is-config="true" signature="openapp()[pri:0, instance:testng.ParallelExecution@5939a379]" started-at="2021-01-06T09:31:47 IST" name="openapp" finished-at="2021-01-06T09:31:47 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openapp -->
-        <test-method signature="login(java.lang.String)[pri:0, instance:testng.ParallelExecution@5939a379]" started-at="2021-01-06T09:31:47 IST" name="login" finished-at="2021-01-06T09:32:13 IST" duration-ms="25974" status="PASS">
+    <test started-at="2021-01-07T09:40:52 IST" name="Default test" finished-at="2021-01-07T09:41:48 IST" duration-ms="55901">
+      <class name="testng.Test3">
+        <test-method signature="demo(java.lang.String, java.lang.String)[pri:0, instance:testng.Test3@37f1104d]" started-at="2021-01-07T09:40:52 IST" name="demo" data-provider="getdata" finished-at="2021-01-07T09:41:10 IST" duration-ms="18210" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[qewereeytwtyhvfhtyus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ggyyggggfsffgfghs]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
-            </line>
-            <line>
-              <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeapp()[pri:0, instance:testng.ParallelExecution@5939a379]" started-at="2021-01-06T09:32:13 IST" name="closeapp" finished-at="2021-01-06T09:32:16 IST" duration-ms="2557" status="PASS">
+        </test-method> <!-- demo -->
+        <test-method signature="demo(java.lang.String, java.lang.String)[pri:0, instance:testng.Test3@37f1104d]" started-at="2021-01-07T09:41:10 IST" name="demo" data-provider="getdata" finished-at="2021-01-07T09:41:27 IST" duration-ms="16532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[786576576576756]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67467657657657]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeapp -->
-      </class> <!-- testng.ParallelExecution -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- demo -->
+        <test-method signature="demo(java.lang.String, java.lang.String)[pri:0, instance:testng.Test3@37f1104d]" started-at="2021-01-07T09:41:27 IST" name="demo" data-provider="getdata" finished-at="2021-01-07T09:41:48 IST" duration-ms="21086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[778ghgdjh#%$%^$%^]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gf57657%&^%&^]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- testng.Test3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

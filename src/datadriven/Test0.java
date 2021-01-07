@@ -19,6 +19,7 @@ public class Test0 {
 		driver.get(p.getProperty("url"));
 		driver.findElement(By.id("username")).sendKeys(p.getProperty("username"));
         driver.findElement(By.name("pwd")).sendKeys(p.getProperty("password"));   
+	
 	}
 
 }
